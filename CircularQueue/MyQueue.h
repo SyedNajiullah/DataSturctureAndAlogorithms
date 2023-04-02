@@ -30,7 +30,7 @@ myQueue<T> & myQueue<T>::operator=(const myQueue & obj)
 {
 	startingPoint = obj.startingPoint;
 	endingPoint = obj.endingPoint;
-	Queue::operator=(obj);
+	Queue<T>::operator=(obj);
 	return *this;
 }
 template<class T>
