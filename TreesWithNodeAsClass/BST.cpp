@@ -119,6 +119,9 @@ bool BST::deleteValue(int value){
 				return true;
 			}
 		}
+		else{
+			return false;
+		}
 	}
 	else if (value == root->getData() && root->getLeftChild() != nullptr && root->getRightChild() == nullptr){
 		if (root->getCount() == 1){
